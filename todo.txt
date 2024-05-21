@@ -1,5 +1,0 @@
-SQL test
-JS ejercicios
-CRUD
-
-Context
