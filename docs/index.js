@@ -1,10 +1,15 @@
+const eliminarAcentos = (str) => {
+  return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+}
+
 /*
   Ejercicio 1: Reverse a String
   Escribe una función reverseString que tome una cadena como entrada y devuelva la cadena invertida.
 */
 
 function reverseString(str) {
-  // Tu solución acá  
+  if(typeof str !== 'string') throw new Error('El parámetro debe ser texto')
+  return str.split('').reverse().join('')
 }
 
 /*
@@ -13,7 +18,9 @@ function reverseString(str) {
   y devuelva true si la cadena es un palíndromo, y false en caso contrario.
 */
 function isPalindrome(str) {
-  // Tu solución acá
+  if(typeof str !== 'string') throw new Error('El parámetro debe ser texto')
+  const cleanSTR = eliminarAcentos(str).toLowerCase()
+  return cleanSTR === cleanSTR.toLowerCase().split('').reverse().join('')
 }
 
 /*
@@ -30,8 +37,26 @@ function isPalindrome(str) {
 */
 
 function closestPair(arr) {
-  // Tu solución acá
+  if(!Array.isArray(arr)) throw new Error('El parámetro debe ser un array')
+  if(arr.length < 2) throw new Error('El arreglo debe tener al menos dos elementos')
+  if(arr.some(e => isNaN(e))) throw new Error('El arreglo debe contener solo números')
+  
+  arr.sort((a, b) => a - b)
+  
+  let min = Infinity
+  let par = []  
+  
+  for(let [i, e] of arr.entries()){
+    if(isNaN(e)) throw new Error('El arreglo debe contener solo números')
+    let diff = Math.abs(arr[i] - arr[i + 1])
+    if(diff < min){
+      min = diff
+      par = [arr[i], arr[i + 1]]
+    }
+  }
+  return par
 }
+
 
 
 /*
@@ -66,8 +91,44 @@ function closestPair(arr) {
 
 */
 
-class Calculator {
-  // Tu solución acá
+class Calculator{
+  lastResult = null
+  
+   add(num1, num2){
+     if(isNaN(num1) || isNaN(num2)) throw new Error('Los datos ingresados no corresponden a números')
+     this.lastResult = Number(num1) + Number(num2) 
+     return this.lastResult
+  }
+
+  subtract(num1, num2){
+    if(isNaN(num1) || isNaN(num2)) throw new Error('Los datos ingresados no corresponden a números')
+    this.lastResult = Number(num1) - Number(num2) 
+    return this.lastResult
+  }
+
+  multiply(num1, num2){
+    if(isNaN(num1) || isNaN(num2)) throw new Error('Los datos ingresados no corresponden a números')
+    this.lastResult = Number(num1) * Number(num2) 
+    return this.lastResult
+  }
+
+  divide(num1, num2){
+    if(isNaN(num1) || isNaN(num2)) throw new Error('Los datos ingresados no corresponden a números')
+    if(num2 === 0) throw new Error('No se puede dividir por cero')
+    this.lastResult = Number(num1) / Number(num2) 
+    return this.lastResult
+  }
+  
+  getLastResult(){
+    return this.lastResult
+  } 
+}
+
+Calculator.prototype.exponentiate = function(base, exponent){
+  if(isNaN(base) || isNaN(exponent)) throw new Error('Los datos ingresados no corresponden a números')
+  if(exponent < 0) throw new Error('El exponente no puede ser negativo')
+  this.lastResult = Math.pow(Number(base), Number(exponent))
+  return this.lastResult
 }
 
 module.exports = {
