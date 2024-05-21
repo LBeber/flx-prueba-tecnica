@@ -1,0 +1,29 @@
+:root{
+    --grid-template-columns: repeat(12, 1fr);
+    --max-width: 1200px;
+    --row-gap: 2rem;
+}
+
+.layout{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+
+.gridContainer{
+    display: grid;
+    grid-template-columns: var(--grid-template-columns);
+    margin: 0 auto;
+    padding: var(--row-gap) 0;
+    row-gap: var(--row-gap);
+    max-width: var(--max-width);
+    width: -webkit-fill-available;
+    @media (width <= 1200px){
+        margin: 0 2rem;
+    }
+}
+
+.content{
+    grid-column: 1 / 13;
+}

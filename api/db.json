@@ -1,222 +1,6 @@
 {
   "users": [
     {
-      "id": 1,
-      "username": "user1",
-      "name": "John",
-      "lastname": "Doe",
-      "email": "john.doe@example.com",
-      "status": "active",
-      "age": 30
-    },
-    {
-      "id": 2,
-      "username": "user2",
-      "name": "Jane",
-      "lastname": "Smith",
-      "email": "jane.smith@example.com",
-      "status": "inactive",
-      "age": 25
-    },
-    {
-      "id": 3,
-      "username": "user3",
-      "name": "Michael",
-      "lastname": "Johnson",
-      "email": "michael.johnson@example.com",
-      "status": "active",
-      "age": 35
-    },
-    {
-      "id": 4,
-      "username": "user4",
-      "name": "Emily",
-      "lastname": "Brown",
-      "email": "emily.brown@example.com",
-      "status": "active",
-      "age": 28
-    },
-    {
-      "id": 5,
-      "username": "user5",
-      "name": "William",
-      "lastname": "Wilson",
-      "email": "william.wilson@example.com",
-      "status": "inactive",
-      "age": 40
-    },
-    {
-      "id": 6,
-      "username": "user6",
-      "name": "Olivia",
-      "lastname": "Jones",
-      "email": "olivia.jones@example.com",
-      "status": "active",
-      "age": 32
-    },
-    {
-      "id": 7,
-      "username": "user7",
-      "name": "James",
-      "lastname": "Taylor",
-      "email": "james.taylor@example.com",
-      "status": "inactive",
-      "age": 45
-    },
-    {
-      "id": 8,
-      "username": "user8",
-      "name": "Sophia",
-      "lastname": "Martinez",
-      "email": "sophia.martinez@example.com",
-      "status": "active",
-      "age": 27
-    },
-    {
-      "id": 9,
-      "username": "user9",
-      "name": "Alexander",
-      "lastname": "Hernandez",
-      "email": "alexander.hernandez@example.com",
-      "status": "active",
-      "age": 33
-    },
-    {
-      "id": 10,
-      "username": "user10",
-      "name": "Charlotte",
-      "lastname": "Garcia",
-      "email": "charlotte.garcia@example.com",
-      "status": "inactive",
-      "age": 29
-    },
-    {
-      "id": 11,
-      "username": "user11",
-      "name": "Benjamin",
-      "lastname": "Lopez",
-      "email": "benjamin.lopez@example.com",
-      "status": "active",
-      "age": 38
-    },
-    {
-      "id": 12,
-      "username": "user12",
-      "name": "Amelia",
-      "lastname": "Perez",
-      "email": "amelia.perez@example.com",
-      "status": "inactive",
-      "age": 42
-    },
-    {
-      "id": 13,
-      "username": "user13",
-      "name": "Ethan",
-      "lastname": "Williams",
-      "email": "ethan.williams@example.com",
-      "status": "active",
-      "age": 31
-    },
-    {
-      "id": 14,
-      "username": "user14",
-      "name": "Mia",
-      "lastname": "Rodriguez",
-      "email": "mia.rodriguez@example.com",
-      "status": "active",
-      "age": 26
-    },
-    {
-      "id": 15,
-      "username": "user15",
-      "name": "Daniel",
-      "lastname": "Hernandez",
-      "email": "daniel.hernandez@example.com",
-      "status": "inactive",
-      "age": 36
-    },
-    {
-      "id": 16,
-      "username": "user16",
-      "name": "Harper",
-      "lastname": "Lopez",
-      "email": "harper.lopez@example.com",
-      "status": "active",
-      "age": 34
-    },
-    {
-      "id": 17,
-      "username": "user17",
-      "name": "Aiden",
-      "lastname": "Gonzalez",
-      "email": "aiden.gonzalez@example.com",
-      "status": "active",
-      "age": 39
-    },
-    {
-      "id": 18,
-      "username": "user18",
-      "name": "Evelyn",
-      "lastname": "Torres",
-      "email": "evelyn.torres@example.com",
-      "status": "inactive",
-      "age": 43
-    },
-    {
-      "id": 19,
-      "username": "user19",
-      "name": "Liam",
-      "lastname": "Flores",
-      "email": "liam.flores@example.com",
-      "status": "active",
-      "age": 37
-    },
-    {
-      "id": 20,
-      "username": "user20",
-      "name": "Avery",
-      "lastname": "Rivera",
-      "email": "avery.rivera@example.com",
-      "status": "active",
-      "age": 41
-    },
-    {
-      "id": 21,
-      "username": "user21",
-      "name": "Aria",
-      "lastname": "Cook",
-      "email": "aria.cook@example.com",
-      "status": "inactive",
-      "age": 28
-    },
-    {
-      "id": 22,
-      "username": "user22",
-      "name": "Jackson",
-      "lastname": "Long",
-      "email": "jackson.long@example.com",
-      "status": "active",
-      "age": 30
-    },
-    {
-      "id": 23,
-      "username": "user23",
-      "name": "Scarlett",
-      "lastname": "Cooper",
-      "email": "scarlett.cooper@example.com",
-      "status": "active",
-      "age": 35
-    },
-    {
-      "id": 24,
-      "username": "user24",
-      "name": "Logan",
-      "lastname": "Lee",
-      "email": "logan.lee@example.com",
-      "status": "inactive",
-      "age": 32
-    },
-    {
       "id": 25,
       "username": "user25",
       "name": "Layla",
@@ -224,15 +8,6 @@
       "email": "layla.gomez@example.com",
       "status": "active",
       "age": 29
-    },
-    {
-      "id": 26,
-      "username": "user26",
-      "name": "Lucas",
-      "lastname": "Hill",
-      "email": "lucas.hill@example.com",
-      "status": "active",
-      "age": 33
     },
     {
       "id": 27,
@@ -280,13 +55,13 @@
       "age": 32
     },
     {
-      "id": 32,
       "username": "user32",
+      "email": "riley.nelson@example.com",
       "name": "Riley",
       "lastname": "Nelson",
-      "email": "riley.nelson@example.com",
-      "status": "active",
-      "age": 29
+      "status": "inactive",
+      "age": "29",
+      "id": 32
     },
     {
       "id": 33,
@@ -352,24 +127,6 @@
       "age": 34
     },
     {
-      "id": 40,
-      "username": "user40",
-      "name": "Penelope",
-      "lastname": "Coleman",
-      "email": "penelope.coleman@example.com",
-      "status": "active",
-      "age": 28
-    },
-    {
-      "id": 41,
-      "username": "user41",
-      "name": "Elijah",
-      "lastname": "Cox",
-      "email": "elijah.cox@example.com",
-      "status": "active",
-      "age": 31
-    },
-    {
       "id": 42,
       "username": "user42",
       "name": "Abigail",
@@ -406,15 +163,6 @@
       "age": 35
     },
     {
-      "id": 46,
-      "username": "user46",
-      "name": "Lillian",
-      "lastname": "Rivera",
-      "email": "lillian.rivera@example.com",
-      "status": "active",
-      "age": 32
-    },
-    {
       "id": 47,
       "username": "user47",
       "name": "Isaac",
@@ -449,6 +197,51 @@
       "email": "grace.allen@example.com",
       "status": "active",
       "age": 32
+    },
+    {
+      "username": "Lucas",
+      "email": "Lucas",
+      "name": "lucas",
+      "lastname": "adf",
+      "status": "active",
+      "age": "45",
+      "id": "a0856378-fefd-4054-9601-ec0b66e2db1f"
+    },
+    {
+      "username": "user23",
+      "email": "lucas@gmail.c",
+      "name": "lucas",
+      "lastname": "Beber",
+      "status": "inactive",
+      "age": "45",
+      "id": "7a854b02-de19-48ea-870d-10e7103d8aff"
+    },
+    {
+      "username": "user43",
+      "email": "lucas",
+      "name": "algo",
+      "lastname": "asdadf",
+      "status": "inactive",
+      "age": "35",
+      "id": "3c05a0f1-d1ec-4007-bf88-e9bb85bbf076"
+    },
+    {
+      "username": "adf",
+      "email": "fff@gma.com",
+      "name": "afadf",
+      "lastname": "555",
+      "status": "active",
+      "age": "44",
+      "id": "34799e43-293c-4c38-abff-f75e41d721f9"
+    },
+    {
+      "username": "afadf",
+      "email": "adfadf@gmaiol.com",
+      "name": "asd",
+      "lastname": "asd",
+      "status": "active",
+      "age": "44",
+      "id": "f4d61320-2fdf-4e51-9a83-1356af3b50d4"
     }
   ]
 }
